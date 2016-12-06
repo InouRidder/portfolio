@@ -1,0 +1,107 @@
+@import url('http://fonts.googleapis.com/css?family=Quicksand');
+
+h1 {
+  font-family: 'Quicksand';
+  font-size: 40;
+  font-weight: 200;
+  color: red;
+}
+
+.header {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30;
+  font-weight: 200;
+  color: grey;
+  margin: auto;
+}
+
+body {
+  background-color: lightgrey;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#buttons {
+margin-top: 10px;
+}
+
+#pp {
+height: 200px;
+width: 200px;
+border-radius: 150px;
+border-radius: 5px;
+}
+
+a:hover {
+    color: #FF00FF
+}
+
+#pf {
+height: 200px;
+width: 200px;
+border-radius: 10px;
+}
+
+#life {
+background: white;                          /* White background */
+padding: 60px;                              /* Internal space */
+border-radius: 5px;                         /* Small radius */
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+border: 1px solid rgba(0, 0, 0, 0.1);
+width: 400px;
+margin: auto;      /* OR subtle border */
+}
+
+.btn-red {
+background-color: #DD5555;
+color: white;
+font-weight: 500;
+padding: 10px;
+border-radius: 50px;
+margin-top: 10px;
+    }
+
+    .btn-grey {
+background-color: rgb(102, 153, 153);
+color: white;
+font-weight: 400;
+padding: 10px;
+border-radius: 50px;
+    }
+
+#links {
+background: white;                          /* White background */
+padding: 60px;                              /* Internal space */
+border-radius: 5px;                         /* Small radius */
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+border: 1px solid rgba(0, 0, 0, 0.1);
+width: 400px;
+margin: auto;
+margin-top: 10px;
+}
+
+#favorite {
+background: white;                          /* White background */
+padding: 60px;                              /* Internal space */
+border-radius: 5px;                         /* Small radius */
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+border: 1px solid rgba(0, 0, 0, 0.1);
+width: 400px;
+margin: auto;
+margin-top: 10;
+}
+
+#tribute {
+background: white;                          /* White background */
+padding: 60px;                              /* Internal space */
+border-radius: 5px;                         /* Small radius */
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+border: 1px solid rgba(0, 0, 0, 0.1);
+width: 400px;
+margin: auto;
+margin-top: 10;
+}
+.container-all {
+  display: flex;
+  justify-content: centre;
+  flex-direction: column;
+}
