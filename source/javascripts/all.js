@@ -31,4 +31,3 @@ $(document).ready(function(){
     });
   });
 
-$(document).querySelector(".flip-container").classList.toggle("flip");
