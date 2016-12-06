@@ -6,10 +6,6 @@ h1 {
   font-weight: 200;
   color: red;
 }
-h3 {
-  text-align: center;
-  border-bottom: 1px violet solid;
-}
 
 .header {
   font-family: 'Quicksand', sans-serif;
@@ -19,15 +15,11 @@ h3 {
   margin: auto;
 }
 
-#buttons {
-margin-top: 10px;
-}
 
 #pp {
-height: 200px;
-width: 200px;
-border-radius: 150px;
-border-radius: 5px;
+height: 250px;
+width: 50%;
+border-radius: 126px;
 }
 
 #pf {
@@ -50,16 +42,7 @@ margin: auto;
 margin-top: 10px;
 }
 
-#favorite {
-background: white;                          /* White background */
-padding: 60px;                              /* Internal space */
-border-radius: 5px;                         /* Small radius */
-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-border: 1px solid rgba(0, 0, 0, 0.1);
-width: 400px;
-margin: auto;
-margin-top: 10;
-}
+
 
 #tribute {
 background: white;                          /* White background */
