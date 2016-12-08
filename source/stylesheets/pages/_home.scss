@@ -17,9 +17,10 @@ h1 {
 
 
 #pp {
-height: 250px;
-width: 50%;
-border-radius: 126px;
+border-radius: 50%;
+height: 200px;
+width: 200px;
+border: solid 1px rgba(230, 255, 255, 0.1);
 }
 
 #pf {
@@ -53,9 +54,4 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 width: 400px;
 margin: auto;
 margin-top: 10;
-}
-.container-all {
-  display: flex;
-  justify-content: centre;
-  flex-direction: column;
 }

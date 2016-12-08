@@ -1,5 +1,6 @@
 
-<div class="container">
+<div class="fixed-background"></div>
+<div class="container-top">
   <div class="ACon">
     <div class="Profile">
       <div class="Img">
@@ -11,7 +12,7 @@
       <div class="clickPopUp">
         <h4><a class="username" href="">Inou Ridder</a></h4>
         <h5 class="buttons"><a class="username" href="#about">About</a></h5>
-        <h5 class="buttons"><a class="username" href="">Portfolio</a></h5>
+        <h5 class="buttons"><a class="username" href="#projects">Portfolio</a></h5>
         <h5 class="buttons"><a class="username" href="">CV</a></h5>
         <h5 class="buttons b"><a class="username" href="">Social</a></h5>
         <div class="Social">
@@ -25,18 +26,21 @@
 </div>
 
 
+
+
+
 <section id="about">
+
   <div class="container">
-    <div class="life">
-      <div class="life-picture">
-        <img src="images/cropped_profile.jpeg" alt="Inou" id="pp">
+    <div class="container-about">
+      <div class="container-about-left">
+        <div class="about-picture">
+          <img src="images/inou.jpg" alt="Inou" id="pp">
+        </div>
+        <div class="about-title">
+        </div>
       </div>
-      <div class="life-title">
-        <h2>
-          Junior Full Stack Developer, <br> Social Scientist
-        </h2>
-      </div>
-      <div class="life-info">
+      <div class="container-about-info">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto quo, est necessitatibus. Hic sed dolorem facilis consequatur cumque optio saepe consectetur numquam, exercitationem quos, eveniet, ad est aliquid ratione excepturi esse nam a illum sit quibusdam? Ex quam minima, sit corrupti eos aliquam nihil earum, obcaecati laudantium, perferendis voluptatem impedit
           #############################
@@ -45,106 +49,100 @@
         </p>
       </div>
     </div>
-  </div>
-</section>
+    <div class="container-interests">
+      <div class="tabs">
+        <a class="tab" data-target="#sustainability">
+          <h3> Sustainability </h3>
+        </a>
+        <a class="tab"  data-target="#ids">
+          <h3> International Development </h3>
+        </a>
+        <a class="tab active"  data-target="#code">
+          <h3> Code </h3>
+        </a>
+      </div>
 
-<div class="tabs">
-  <a class="tab active" href="#about">
-  <h3> Sustainability </h3>
-      <p>
-        Through my travels and constant engagement with international development I learned that the greatest threat to the world and the poorest among us, is the rapidly changing environment. After researching what needs to change I've come to the one conclusion and that is us. It is our consumption behaviour that is the threat. But people will be people, we are ego centered minds and the only way to change behaviour is to substitute adequate consumption. To me, innovation is the only way out.
+      <div class="interests-card tab-content hidden" id="sustainability">
+      <div class="interests-card-content">
+        <h4>
+          Sustainability
+        </h4>
+        <p>
+          Through my travels and constant engagement with international development I learned that the greatest threat to the world and the poorest among us, is the rapidly changing environment. After researching what needs to change I've come to the one conclusion and that is us. It is our consumption behaviour that is the threat. But people will be people, we are ego centered minds and the only way to change behaviour is to substitute adequate consumption. To me, innovation is the only way out.
+        </p>
+        </div>
+      </div>
+
+
+      <div class="interests-card tab-content hidden" id="ids">
+      <div class="interests-card-content">
+       <h4>
+         International Development
+       </h4>
+       <p> At the age of eighteen I joined my sister at an orphanage to help with her activities. It was then I quickly realised that the act of giving gave me a sense of fulfilment. I realised I would be happy if I believe the work I do contributes to a better world. Since, I've travelled the world and helped at multiple projects and it inspired me to study international development to understand at a more abstract level, what is needed and how to achieve it. </p>
+     </div>
+     </div>
+
+
+     <div class="interests-card tab-content active" id="code">
+     <div class="interests-card-content">
+       <h4>
+         Code
+       </h4>
+       <p>
+        I've always been engaged with tech. I made my own website when I was fourteen, for fun. Sadly, I never continued down that path as I did not realize the potential. Now I believe that technological innovation is the only solution to many of the problems we face today. During the bootcamp at Le Wagon, I realised not only did I enjoy coding. I was good at it too. I learned to comfortable code with the MVC framework to manage complexity and create structured, clean and efficient code. After finishing most of the back end of my group project and structuring 50% of the front end, I am now working on two websites as a freelance webdeveloper. My interests are full stack. I enjoy good structures frame works and I am comfortable with HTML, CSS, vanilla JavaScript, SQL, PostGreSQL, Ruby and Ruby on Rails. Boilerplates I've worked with: Bootstrap and Middleman
       </p>
-  </a>
-  <a class="tab" href="#about">
-    <h3> International Development </h3>
-     <p> At the age of eighteen I joined my sister at an orphanage to help with her activities. It was then I quickly realised that the act of giving gave me a sense of fulfilment. I realised I would be happy if I believe the work I do contributes to a better world. Since, I've travelled the world and helped at multiple projects and it inspired me to study international development to understand at a more abstract level, what is needed and how to achieve it. </p>
-  </a>
-  <a class="tab" href="#about">
-    <h3> Code </h3>
-      <p>
-      I've always been engaged with tech. I made my own website when I was fourteen, for fun. Sadly, I never continued down that path as I did not realize the potential. Now I believe that technological innovation is the only solution to many of the problems we face today. During the bootcamp at Le Wagon, I realised not only did I enjoy coding. I was good at it too. I learned to comfortable code with the MVC framework to manage complexity and create structured, clean and efficient code. After finishing most of the back end of my group project and structuring 50% of the front end, I am now working on two websites as a freelance webdeveloper. My interests are full stack. I enjoy good structures frame works and I am comfortable with HTML, CSS, vanilla JavaScript, SQL, PostGreSQL, Ruby and Ruby on Rails. Boilerplates I've worked with: Bootstrap and Middleman
-    </p>
-  </a>
-</div>
-
-
-
-
-<section class="interests">
-  <div class="container-interests">
-    <div class="interests-card">
-      <h4>
-        Sustainability
-      </h4>
-      <p>
-        Through my travels and constant engagement with international development I learned that the greatest threat to the world and the poorest among us, is the rapidly changing environment. After researching what needs to change I've come to the one conclusion and that is us. It is our consumption behaviour that is the threat. But people will be people, we are ego centered minds and the only way to change behaviour is to substitute adequate consumption. To me, innovation is the only way out.
-      </p>
+      </div>
     </div>
-
-
-    <div class="interests-card">
-     <h4>
-       International Development
-     </h4>
-     <p> At the age of eighteen I joined my sister at an orphanage to help with her activities. It was then I quickly realised that the act of giving gave me a sense of fulfilment. I realised I would be happy if I believe the work I do contributes to a better world. Since, I've travelled the world and helped at multiple projects and it inspired me to study international development to understand at a more abstract level, what is needed and how to achieve it. </p>
-   </div>
-
-
-    <div class="interests-card">
-     <h4>
-       Code
-     </h4>
-     <p>
-      I've always been engaged with tech. I made my own website when I was fourteen, for fun. Sadly, I never continued down that path as I did not realize the potential. Now I believe that technological innovation is the only solution to many of the problems we face today. During the bootcamp at Le Wagon, I realised not only did I enjoy coding. I was good at it too. I learned to comfortable code with the MVC framework to manage complexity and create structured, clean and efficient code. After finishing most of the back end of my group project and structuring 50% of the front end, I am now working on two websites as a freelance webdeveloper. My interests are full stack. I enjoy good structures frame works and I am comfortable with HTML, CSS, vanilla JavaScript, SQL, PostGreSQL, Ruby and Ruby on Rails. Boilerplates I've worked with: Bootstrap and Middleman
-    </p>
   </div>
 </div>
 </section>
 
 
-<section class="projects">
-  <div class="card">
-   <h4>
+
+
+<div class="projects-container" id="projects">
+
+  <div class="project-card" style="background-image: url('../images/BarberApp.png')">
+  <div class="project-card-back">
+    <div class="project-title">
+    <h4>
      BARBER.APP
    </h4>
-   <p>
-     BARBER.APP was a three week end sprint MVC product with which I concluded my Le Wagon Bootcamp. The app was built around the idea that there is no easy way to find a good, available barber that is close by. And that is exactly what barber app does. The main functionality sorted the barbers according to the users location and current time. It then gave a list of barbers that are available near him sorted by their review rating! The website was created with the Ruby on Rails framework, html, css and included some JavaScript for geocoding as well as visual effects. As an extra challange, we coded the agenda system ourselves entirely.
-   </p>
-   <a href="https://shavesandcuts.herokuapp.com" class="btn-grey"> <i class= "fa fa-barber"></i></a>
-   <h4>
-    Vegan Movie Critic
-  </h4>
-  <p>
-   Movie reviewing website
- </p>
- <a href="https://veganmoviecritic.herokuapp.com"> <i class="fa fa-vegan"></i></a>
-</div>
-</div>
-</section>
-
-
-
-<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-  <div class="flipper">
-    <div class="front">
-      <h1> Social </h1>
-    </div>
-    <div class="back">
-      <div id="links">
-        <div id="buttons">
-          <a href="https://nl.wikipedia.org/wiki/I_Am_Legend" target="_blanc" class="btn-grey"><i class="fa fa-cloud-download"></i> My wiki
-          </a>
-
-          <a href="https://www.youtube.com/watch?v=5j6ZGbzqMXY" target="_blanc" class="btn-grey">
-           <i class="fa fa-linkedin" ></i>
-           My linkedin Account!
-         </a>
-       </div>
-     </div>
+   </div>
+   <div class="project-description">
+     <p>
+       BARBER.APP was a three week end sprint MVC product with which I concluded my Le Wagon Bootcamp. The app was built around the idea that there is no easy way to find a good, available barber that is close by. And that is exactly what barber app does. The main functionality sorted the barbers according to the users location and current time. It then gave a list of barbers that are available near him sorted by their review rating! The website was created with the Ruby on Rails framework, html, css and included some JavaScript for geocoding as well as visual effects. As an extra challange, we coded the agenda system ourselves entirely.
+     </p>
+   </div>
+   </div>
+   <div class="project-link">
+     <a href="https://shavesandcuts.herokuapp.com" class="btn-grey"> Check it <output></output> <i class= "fa fa-barber"></i></a>
    </div>
  </div>
+
+
+
+ <div class="project-card">
+ <div class="project-card-back">
+  <div class="project-title">
+    <h4>
+      Vegan Movie Critic
+    </h4>
+  </div>
+  <div class="project-description">
+    <p>
+     Movie reviewing website
+   </p>
+ </div>
+ </div>
+ <div class="project-link">
+  <a href="https://veganmoviecritic.herokuapp.com"> Check it out <i class="fa fa-vegan"></i></a>
+</div>
 </div>
 
+
+</div>
 
 
 
