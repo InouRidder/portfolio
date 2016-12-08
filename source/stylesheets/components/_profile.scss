@@ -1,4 +1,7 @@
-
+.Social {
+  display: flex;
+  justify-content: space-around;
+}
 .click{
   background: url('../images/inou_look.JPG');
   background-size:contain;
@@ -196,7 +199,7 @@
   border-top: 1px solid #EEF5DB;
   border-left: 0px solid #EEF5DB;
 }
-.b{
+.b {
   border-bottom: 1px solid #EEF5DB;
 }
 .buttons:hover{
