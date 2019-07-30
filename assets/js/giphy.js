@@ -1,6 +1,7 @@
 'use strict'
 
 function replaceImgOf(object, newImg) {
+  object.hidden = false
   object.src = newImg.images.original.url
   return 1;
 }
