@@ -342,7 +342,32 @@
       </div>
     </div>
     <div class="portfolio-cards">
-      <div class="row project-card"  data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="client-apps">
+      <div class="row project-card" data-portfolio-tag="client-apps">
+        <div class="col-md-6 col-lg-5 project-card__img">
+          <img class="" src="assets/img/table-vibe.gif" alt="project-img">
+        </div>
+        <div class="col-md-6 col-lg-7 project-card__info">
+          <h3 class="project-card__title">Tablevibe</h3>
+          <p class="project-card__description">
+            Review collection tool for restaurants
+          </p>
+          <p class="project-card__stack"></p>
+          <ul class="tags">
+            <li>Vue.js</li>
+            <li>Nuxt.js</li>
+            <li>Micro Service</li>
+            <li>PWA</li>
+            <li>Node</li>
+            <li>Rails</li>
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>Desktop</li>
+            <li>Mobile</li>
+          </ul>
+          <a href="https://client-ui-n56jnry35q-ew.a.run.app" class="project-card__link">www.tablevibe.co (STAGING) </a>
+        </div>
+      </div>
+      <div class="row project-card" data-portfolio-tag="client-apps">
         <div class="col-md-6 col-lg-5 project-card__img">
           <img class="" src="assets/img/jobdex.png" alt="project-img">
         </div>
@@ -365,7 +390,7 @@
           <a href="https://jobdex.nl" class="project-card__link">www.jobdex.nl</a>
         </div>
       </div>
-      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="client-apps">
+      <div class="row project-card data-portfolio-tag="client-apps">
         <div class="col-md-6 col-lg-5 project-card__img">
           <img class="" src="assets/img/zaina.png" alt="project-img">
         </div>
@@ -384,10 +409,10 @@
             <li>Desktop</li>
             <li>Mobile</li>
           </ul>
-          <a href="www.zaina.io" target="_blank" class="project-card__link">www.zaina.io</a>
+          <a href="https://www.zaina.io" target="_blank" class="project-card__link">www.zaina.io</a>
         </div>
       </div>
-      <div class="row project-card"  data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="client-apps">
+      <div class="row project-card" data-portfolio-tag="client-apps">
         <div class="col-md-6 col-lg-5 project-card__img">
           <img class="" src="assets/img/img_project_2_mono.png" alt="project-img">
         </div>
@@ -406,7 +431,7 @@
           <a href="https://www.onelifefilm.nl" class="project-card__link">www.onelifefilm.nl</a>
         </div>
       </div>
-      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="client-apps">
+      <div class="row project-card data-portfolio-tag="client-apps">
         <div class="col-md-6 col-lg-5 project-card__img">
           <img class="" src="assets/img/mph.png" alt="project-img">
         </div>
@@ -427,7 +452,7 @@
           <a href="https://mph-bali.firebaseapp.com/" target="_blank" class="project-card__link">mph-bali</a>
         </div>
       </div>
-      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="client-apps">
+      <div class="row project-card data-portfolio-tag="client-apps">
         <div class="col-md-6 col-lg-5 project-card__img">
           <img class="" src="assets/img/lawspot.png" alt="project-img">
         </div>
@@ -445,10 +470,10 @@
             <li>Desktop</li>
             <li>Mobile</li>
           </ul>
-          <a href="www.zaina.io" target="_blank" class="project-card__link">www.zaina.io</a>
+          <a href="https://www.lawspot.nl" target="_blank" class="project-card__link">www.lawspot.nl</a>
         </div>
       </div>
-      <div class="row project-card"  data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="open-source">
+      <div class="row project-card" data-portfolio-tag="open-source">
         <div class="col-md-6 col-lg-5 project-card__img">
           <img class="" src="assets/img/ruby.png" alt="project-img">
         </div>
@@ -465,7 +490,7 @@
           <a href="https://rubygems.org/gems/draw_static" class="project-card__link">Draw Static</a>
         </div>
       </div>
-      <div class="row project-card"  data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="open-source">
+      <div class="row project-card" data-portfolio-tag="open-source">
         <div class="col-md-6 col-lg-5 project-card__img">
           <img class="" src="assets/img/ruby.png" alt="project-img">
         </div>
@@ -481,7 +506,7 @@
           <a href="https://github.com/InouRidder/conversion" class="project-card__link">Conversion</a>
         </div>
       </div>
-      <div class="row project-card"  data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="open-source">
+      <div class="row project-card" data-portfolio-tag="open-source">
         <div class="col-md-6 col-lg-5 project-card__img">
           <img class="" src="assets/img/javascript.png" alt="project-img">
         </div>
@@ -587,12 +612,7 @@
 
 <!--Blog-->
   <section id="blog" class="container section">
-    <div class="row">
-      <div class="col-md-12">
-        <h2 id="blog_header" class="section__title">Thanks_</h2>
-      </div>
-    </div>
-    <div class="row post-cards">
+    <div class="row post-cards justify-content-center">
       <div class="col-md-4 md-offset-4">
         <div class="post-cards__card">
           <div class="post-cards__img">
@@ -663,46 +683,6 @@
   </div>
 <!--Contact-->
 
-<!-- Portfolio Modal -->
-  <div class="modal fade portfolio-modal" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body col-md-11 col-lg-9 ml-auto mr-auto">
-        <p class="portfolio-modal__title">Mobile and desktop app for London hostel store</p>
-        <img class="portfolio-modal__img" src="assets/img/img_project_1_mono.png" alt="modal_img">
-        <p class="portfolio-modal__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcolaboris nisi ut aliquip ex
-          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum. Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium doloremque
-          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-          dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-          conse.
-        </p>
-        <div class="portfolio-modal__link">
-          <a href="">www.superapp.com</a>
-        </div>
-        <div  class="portfolio-modal__stack">
-          <p class="portfolio-modal__stack-title">Using stack:</p>
-          <ul class="tags">
-            <li>html5</li>
-            <li>css3</li>
-            <li>JavaScript</li>
-            <li>bower</li>
-            <li>grunt</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Portfolio Modal -->
   <script src="assets/js/age_in_years.js"></script>
   <script src="assets/js/jquery-2.2.4.min.js"></script>
   <script src="assets/js/popper.min.js"></script>
